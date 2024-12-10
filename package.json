@@ -4,24 +4,15 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
-    "drop-db": "node ./scripts/drop-db.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "test": "jest --watchAll",
     "lint": "expo lint"
-  },
-  "jest": {
-    "preset": "jest-expo"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.2",
     "@react-navigation/native": "^7.0.0",
     "expo": "^52.0.17",
-    "expo-constants": "~17.0.3",
-    "expo-font": "~13.0.1",
-    "expo-linking": "~7.0.3",
     "expo-router": "~4.0.11",
     "expo-splash-screen": "~0.29.16",
     "expo-sqlite": "~15.0.3",
