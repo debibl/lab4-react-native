@@ -7,11 +7,15 @@
 
 1. Установите зависимости   
 
-`npm install`
+```bash
+npm install
+```
 
 2. Запустите проект   
 
-` npx expo start`
+```bash
+npx expo start
+```
 
 3. Киньте мне деньги на банковскую карту   
    
