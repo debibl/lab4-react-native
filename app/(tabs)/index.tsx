@@ -37,7 +37,7 @@ export default observer(function ProductsList() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 22,
+    paddingTop: 10,
   },
   item: {
     padding: 10,
